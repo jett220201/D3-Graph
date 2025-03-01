@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container p {
+    font-weight: 600;
+}
+
+#inputData {
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 20px;
+    padding: 10px;
+}
+
+#updateBtn {
+    background-color: #4f9bd9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    height: 42px;
+    cursor: pointer;
+}
+
+#errorMessage {
+    color: red;
+    font-weight: 600;
+}
